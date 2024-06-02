@@ -28,6 +28,12 @@ dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL
 dotnet ef migrations add InitialCreate
 dotnet ef database update
 ```
+> **Cambiar la conexión a la BD PostgreSQL**
+```	
+"DefaultConnection": "Host=127.0.0.1;Port=5432;Database=serviciosapi;Username=steven;Password=******;"
+```	
+
+
 > **Se realiza compilación del Proyecto**
 ```	
 dotnet build
@@ -44,6 +50,9 @@ https://localhost:5001/swagger
 ```
 
 > **Se Instalan dependencias Amazon para .NET**
+
+> **Instalación del Kit de herramientas de AWS para Visual Studio**
+> https://aws.amazon.com/es/visualstudio/
 
 ``` 
 dotnet add package Amazon.Lambda.AspNetCoreServer
