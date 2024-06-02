@@ -103,3 +103,11 @@ C:\laragon\www\prueba_tecnica\ServiciosAPI\obj\Debug\net8.0\refint\ServiciosAPI.
 C:\laragon\www\prueba_tecnica\ServiciosAPI\obj\Debug\net8.0\ServiciosAPI.pdb
 C:\laragon\www\prueba_tecnica\ServiciosAPI\obj\Debug\net8.0\ServiciosAPI.genruntimeconfig.cache
 C:\laragon\www\prueba_tecnica\ServiciosAPI\obj\Debug\net8.0\ref\ServiciosAPI.dll
+C:\laragon\www\prueba_tecnica\ServiciosAPI\obj\Debug\net8.0\ServiciosAPI.sourcelink.json
+C:\laragon\www\prueba_tecnica\ServiciosAPI\bin\Debug\net8.0\aws-lambda-tools-defaults.json
+C:\laragon\www\prueba_tecnica\ServiciosAPI\bin\Debug\net8.0\Amazon.Lambda.APIGatewayEvents.dll
+C:\laragon\www\prueba_tecnica\ServiciosAPI\bin\Debug\net8.0\Amazon.Lambda.ApplicationLoadBalancerEvents.dll
+C:\laragon\www\prueba_tecnica\ServiciosAPI\bin\Debug\net8.0\Amazon.Lambda.AspNetCoreServer.dll
+C:\laragon\www\prueba_tecnica\ServiciosAPI\bin\Debug\net8.0\Amazon.Lambda.Core.dll
+C:\laragon\www\prueba_tecnica\ServiciosAPI\bin\Debug\net8.0\Amazon.Lambda.Logging.AspNetCore.dll
+C:\laragon\www\prueba_tecnica\ServiciosAPI\bin\Debug\net8.0\Amazon.Lambda.Serialization.SystemTextJson.dll

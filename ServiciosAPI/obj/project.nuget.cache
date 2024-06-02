@@ -1,9 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "zxRJ2TgSs3U=",
+  "dgSpecHash": "YeN//yPcvGA=",
   "success": true,
   "projectFilePath": "C:\\laragon\\www\\prueba_tecnica\\ServiciosAPI\\ServiciosAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\braya\\.nuget\\packages\\amazon.lambda.apigatewayevents\\2.7.0\\amazon.lambda.apigatewayevents.2.7.0.nupkg.sha512",
+    "C:\\Users\\braya\\.nuget\\packages\\amazon.lambda.applicationloadbalancerevents\\2.2.0\\amazon.lambda.applicationloadbalancerevents.2.2.0.nupkg.sha512",
+    "C:\\Users\\braya\\.nuget\\packages\\amazon.lambda.aspnetcoreserver\\9.0.0\\amazon.lambda.aspnetcoreserver.9.0.0.nupkg.sha512",
+    "C:\\Users\\braya\\.nuget\\packages\\amazon.lambda.core\\2.2.0\\amazon.lambda.core.2.2.0.nupkg.sha512",
+    "C:\\Users\\braya\\.nuget\\packages\\amazon.lambda.logging.aspnetcore\\3.1.0\\amazon.lambda.logging.aspnetcore.3.1.0.nupkg.sha512",
+    "C:\\Users\\braya\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.4.1\\amazon.lambda.serialization.systemtextjson.2.4.1.nupkg.sha512",
     "C:\\Users\\braya\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\braya\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.6\\microsoft.aspnetcore.openapi.8.0.6.nupkg.sha512",
     "C:\\Users\\braya\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
