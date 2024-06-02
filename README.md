@@ -65,6 +65,13 @@ dotnet lambda deploy-function
 
 # Creación de Aplicativo Web Vue 3
 
+## Creación del Proyecto Vue
+> vue create serviciosWeb
 
 
-
+> Instalación de Librerias
+```
+npm install vue-router@4
+npm install vuex --save
+npm i  @fortawesome/fontawesome-free axios bootstrap sweetalert2
+```
