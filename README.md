@@ -1,5 +1,19 @@
 # Prueba Técnica - Desarrollador Semisenior (Backend) - Linktic S.A.S
 
+### Anexo de Diagramas
+
+---
+
+#### Diagrama Nube
+
+![Diagrama Nube](./diagramaAmazonNube.png){ width=600px }
+
+#### Diagrama Local
+
+![Diagrama Local](./diagramaLocal.png)
+
+---
+
 # ServiciosAPI
 ## Creación del API
 ## Ajustar el contenido de las conexiones
@@ -74,4 +88,10 @@ dotnet lambda deploy-function
 npm install vue-router@4
 npm install vuex --save
 npm i  @fortawesome/fontawesome-free axios bootstrap sweetalert2
+npm i datatables.net datatables.net-vue3 datatables.net-bs5 datatables.net-buttons-bs5 datatables.net-responsive-bs5 jszip pdfmake
+```
+
+> Despues de instaladas las dependencies ejecutar el aplicativo 
+```
+npm run serve
 ```
