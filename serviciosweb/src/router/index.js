@@ -6,7 +6,7 @@ import EditarProductoView from '../views/EditarProductoView.vue';
 import EditarOrdenView from '../views/EditarOrdenView.vue';
 import MostrarProductoView from '../views/MostrarProductoView.vue';
 import MostrarOrdenView from '../views/MostrarOrdenView.vue';
-
+import ReporteView from '../views/ReporteView.vue';
 
 const routes = [
   {
@@ -20,8 +20,8 @@ const routes = [
     component: MostrarProductoView
   },
   {
-    path: '/mostrar-orden',
-    name: 'mostrar-orden',
+    path: '/mostrar-ordenes',
+    name: 'mostrar-ordenes',
     component: MostrarOrdenView
   },
   {
@@ -30,8 +30,8 @@ const routes = [
     component: CrearProductoView
   },
   {
-    path: '/crear-orden',
-    name: 'crear-orden',
+    path: '/crear-ordenes',
+    name: 'crear-ordenes',
     component: CrearOrdenView
   },
   {
@@ -40,9 +40,14 @@ const routes = [
     component: EditarProductoView
   },
   {
-    path: '/editar-orden/:id',
-    name: 'editar-orden',
+    path: '/editar-ordenes/:id',
+    name: 'editar-ordenes',
     component: EditarOrdenView
+  },
+  {
+    path: '/reporte',
+    name: 'reporte',
+    component: ReporteView
   },
   // {
   //   path: '/about',

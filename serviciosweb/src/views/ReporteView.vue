@@ -34,8 +34,7 @@
         </div>
     </div>
 </template>
-<script>
-import axios from 'axios';
+<script>import axios from 'axios';
 import DataTable from 'datatables.net-vue3';
 import DataTableLib from 'datatables.net-bs5';
 import Buttons from 'datatables.net-buttons-bs5';
@@ -99,37 +98,25 @@ export default defineComponent({
             title: 'Reporte de Productos',
             extend: 'excelHtml5',
             text: '<i class="fa-solid fa-file-excel"></i> Excel',
-            className: 'btn btn-success',
-            exportOptions: {
-             columns: [0, 1, 2]  
-            }
+            className: 'btn btn-success'
         },
         {
             title: 'Reporte de Productos',
             extend: 'pdfHtml5',
             text: '<i class="fa-solid fa-file-pdf"></i> PDF',
-            className: 'btn btn-danger',
-            exportOptions: {
-             columns: [0, 1, 2]  
-            }
+            className: 'btn btn-danger'
         },
         {
             title: 'Reporte de Productos',
             extend: 'print',
             text: '<i class="fa-solid fa-print"></i> Imprimir',
-            className: 'btn btn-dark',
-            exportOptions: {
-             columns: [0, 1, 2]  
-            }
+            className: 'btn btn-dark'
         },
         {
             title: 'Reporte de Productos',
             extend: 'copy',
             text: '<i class="fa-solid fa-copy"></i> Copiar',
-            className: 'btn btn-light',
-            exportOptions: {
-             columns: [0, 1, 2]  
-            }
+            className: 'btn btn-light'
         },
         ],
       tableOptions: {

@@ -10,18 +10,29 @@
         <li class="nav-item">
           <router-link to="/" class="nav-link active" aria-current="page" href="#">Inicio</router-link>
         </li>
-        <li class="nav-item">
-          <router-link to="/mostrar-producto" class="nav-link active" aria-current="page" href="#">Mostrar Producto</router-link>
+        
+        <li class="nav-item dropdown ">
+          <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Productos
+          </a>
+          <ul class="dropdown-menu ">
+            <router-link to="/mostrar-producto" class="dropdown-item" aria-current="page" href="#">Mostrar Producto</router-link>
+            <router-link to="/crear-producto" class="dropdown-item" aria-current="page" href="#">Crear Producto</router-link>
+          </ul>
         </li>
-        <li class="nav-item">
-          <router-link to="/mostrar-orden" class="nav-link active" aria-current="page" href="#">Mostrar Orden</router-link>
+        
+        <li class="nav-item dropdown ">
+          <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Ordenes
+          </a>
+          <ul class="dropdown-menu ">
+            <router-link to="/mostrar-ordenes" class="dropdown-item" aria-current="page" href="#">Mostrar Orden</router-link>
+            <router-link to="/crear-ordenes" class="dropdown-item" aria-current="page" href="#">Crear Orden</router-link>
+          </ul>
         </li>
-        <li class="nav-item">
-          <router-link to="/crear-producto" class="nav-link" href="#">Crear Producto</router-link>
-        </li>
-        <li class="nav-item">
-          <router-link to="/crear-orden" class="nav-link" href="#">Crear Producto</router-link>
-        </li>
+        
+        
+       
       </ul>
      
     </div>
